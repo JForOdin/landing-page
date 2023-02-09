@@ -1,0 +1,96 @@
+body {
+    font-family:verdana;
+
+}
+.top-section {
+    background-color: rgb(62, 82, 119);
+
+}
+img {
+    flex:1;
+    max-width: 300px;
+    height: auto;
+   
+}
+button {
+    
+    background-color: rgb(91, 91, 255);
+    color: white;
+    border-radius: 8px;
+    font-style: bold;
+    font-size: large;
+}
+.hero-container {
+    display: flex;
+    flex: 1;
+    gap: 150px;
+  
+}
+.hero-section {
+    font-size: 48px;
+    margin-left: 150px;
+    max-width: 400px;
+    color: white;
+}
+.hero-section .hero-text {
+    
+    color:darkgrey;
+    font-size: 16px;
+}
+.flex-container {
+    display: flex;
+    justify-content: center;
+
+}
+.flex-container .logo {
+    flex: 1;
+    margin-left: 150px;
+    align-items: center;
+    color: white;
+}
+a:link {
+    color:darkgrey;
+}
+a:visited {
+    color:black;
+}
+.flex-container .nav-bar {
+    display: flex;
+    list-style: none;
+    color:rgb(161, 161, 161);
+    /* align-items: flex-start; */
+    gap: 10px;
+    
+    margin-right: 150px;
+}
+.bottom-section {
+    display: flex;
+    justify-content: center;
+    font-size: 36px;
+    font-weight: 800;
+    color :rgb(62, 82, 119);
+
+}
+
+.card-div {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+.card {
+    text-align: center;
+    font-weight: 800;
+}
+.card img {
+    width: 200px;
+    height: auto;
+    border-radius: 10%;
+
+}
+.inspirational {
+    display:flex;
+    justify-content: center;
+    font-size: 24px;
+    font-style: italic;
+    background-color: gainsboro;
+}
