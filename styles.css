@@ -93,4 +93,19 @@ a:visited {
     font-size: 24px;
     font-style: italic;
     background-color: gainsboro;
+    margin: 50px;
+}
+.call {
+    display: flex;
+    justify-content: center;
+    background-color: rgb(91, 91, 255);
+
+}
+.footer {
+    background-color: rgb(62, 82, 119);
+    color: white;
+    text-align: center;
+    justify-content: center;
+    display: flex;
+    margin-top: 20px;
 }
