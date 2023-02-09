@@ -24,7 +24,7 @@ button {
     display: flex;
     flex: 1;
     gap: 150px;
-  
+    padding: 10px;
 }
 .hero-section {
     font-size: 48px;
@@ -50,9 +50,11 @@ button {
 }
 a:link {
     color:darkgrey;
+    text-decoration: none;
 }
 a:visited {
-    color:black;
+    color:white;
+    text-decoration: none;
 }
 .flex-container .nav-bar {
     display: flex;
