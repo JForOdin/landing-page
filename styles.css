@@ -113,16 +113,26 @@ a:visited {
     color: white;
     background-color: rgb(91, 91, 255);
     max-width: 500px;
+    max-height: 100px;
     margin-left: auto;
     margin-right: auto;
     align-items: center;
     gap: 20px;
     border-radius: 10px;
+    padding: 10px;
+
+}
+.two-rows {
+    flex: 1;
+    flex-direction: column;
+
 }
 .call button {
    justify-content: center;
+   
 }
 .call > * {
    text-align: center;
    flex: 1;
+
 }
